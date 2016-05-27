@@ -121,10 +121,23 @@ footer {
 // START :: Login section
 .section-login {
 	background: url('../img/bg-mountains.jpg');
-	height: 650px;
+	height: 750px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: right; 
+	 background-attachment: fixed;
+	background-position: center right; 
+	.container {
+		height: 100%;
+		.row {
+			height: 100%;
+			& > .login-form {
+				width: 480px;
+				height: 480px;
+				background: #fff;
+			    margin: 145px 0;
+			}
+		}
+	}
 }
 // END :: Login section
 // ------------------------------------------------------------------------------------
