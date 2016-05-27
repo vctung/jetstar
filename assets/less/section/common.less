@@ -50,7 +50,7 @@
 // END :: navbar
 // ------------------------------------------------------------------------------------
 
-
+    
 
 // ------------------------------------------------------------------------------------
 // START :: Footer
@@ -58,9 +58,11 @@ footer {
 	background: @bg-gray;
 	padding: 40px 0 0 0;
     height: 150px;
+    font-size: 12px;
 	.container {
 		.row {
 			.top-footer {
+				margin-bottom: 10px;
 				& > div {
 					&:first-child {
 						a {
@@ -77,9 +79,33 @@ footer {
 						}
 					}
 					&:nth-child(2) {
-						
+						text-align: right;
+						ul {
+							li {
+								float: right;
+								margin-left: 40px;
+								a {
+									color: #9d9d9d;
+									text-decoration: none;
+									&:hover {
+										color : #fff;
+									}
+								}
+							}
+						}
 					}
 				}
+			} /* END :: top-footer */
+
+			.bottom-footer {	
+				padding-top: 10px;			
+				border-top: 1px solid #ccc;
+   				color: #999;
+   				& > div {
+   					&:nth-child(2) {
+   						text-align: right;
+   					}
+   				}
 			}
 		}
 	}
