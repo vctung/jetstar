@@ -3,6 +3,8 @@
 .navbar {
 	background: @bg-gray;
 	border-radius: 0px;
+	border: none;
+	box-shadow: 0px 3px 6px #333;
 	.container {
 		.navbar-header {
 			a {
@@ -17,13 +19,13 @@
 
 		#navbar {
 			& > ul {
-				& >li {
+				& >li {					
 					& > a {
 						height: 60px;
 						line-height: 30px;
 						font-size: 12px;
 						border-left: 1px solid #2a2a2a;
-   						border-right: 1px solid #363636;
+   						border-right: 1px solid #363636;   						
 					}
 
 					&:last-child {
@@ -57,7 +59,7 @@
 footer {
 	background: @bg-gray;
 	padding: 40px 0 0 0;
-    height: 150px;
+    height: 190px;
     font-size: 12px;
 	.container {
 		.row {
@@ -111,4 +113,18 @@ footer {
 	}
 }
 // END :: Footer
+// ------------------------------------------------------------------------------------
+
+
+
+// ------------------------------------------------------------------------------------
+// START :: Login section
+.section-login {
+	background: url('../img/bg-mountains.jpg');
+	height: 650px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right; 
+}
+// END :: Login section
 // ------------------------------------------------------------------------------------
