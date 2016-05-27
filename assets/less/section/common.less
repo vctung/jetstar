@@ -118,6 +118,63 @@ footer {
 // ------------------------------------------------------------------------------------
 
 
+// ------------------------------------------------------------------------------------
+// START :: Breadcrumbs
+.section-breadcrumbs {
+	background: url('../img/bg-stripe-be.png?b=88') repeat 0 0;
+    border-bottom: 1px solid #ddebf8;
+    padding: 14px 0 14px;
+    .container {
+    	.row {
+    		ul {
+    			margin-bottom: 0;
+    			margin-left: -60px;
+    			li  {
+    				list-style: none;
+    				display: inline-block;
+    				margin-left: 20px;
+    				color: #b6c3d0;
+    				&:not(:first-child) {
+    					margin-left: 3px;
+    					i {
+    						&:first-child {
+    							font-size: 10px;
+    						}
+    					}
+    				}
+    				&.highlight {    					
+    					color: @color-orange;
+    				}
+    			}
+    		}
+    	}
+    }
+}
+// END :: Breadcrumbs
+// ------------------------------------------------------------------------------------
+
+
+// ------------------------------------------------------------------------------------
+// START :: Banner
+.section-banner {
+	height: 265px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/Sunshinecoast-header.jpg);
+    h1 {
+    	font-family: 'HelveticaNeue-Bold';
+	    font-size: 50px;
+	    margin-top: 100px;
+	    color: #fff;
+	    text-shadow: 1px 2px 1px #000;
+    }
+}
+// END :: Banner
+// ------------------------------------------------------------------------------------
+
+
+
 
 // ------------------------------------------------------------------------------------
 // START :: Login section
