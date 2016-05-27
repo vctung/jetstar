@@ -1,0 +1,88 @@
+// ------------------------------------------------------------------------------------
+// START :: navbar
+.navbar {
+	background: @bg-gray;
+	border-radius: 0px;
+	.container {
+		.navbar-header {
+			a {
+				width: 109px;
+			    height: 30px;
+			    background-size: cover;
+			     background: url(../img/logo.svg);
+			    display: block;
+			    margin-top: 15px;
+			}
+		}
+
+		#navbar {
+			& > ul {
+				& >li {
+					& > a {
+						height: 60px;
+						line-height: 30px;
+						font-size: 12px;
+						border-left: 1px solid #2a2a2a;
+   						border-right: 1px solid #363636;
+					}
+
+					&:last-child {
+						padding-right: 10px;
+						a {
+							padding-right: 70px;
+						}
+						.jess-icon  {
+							width: 57px;
+						    height: 56px;
+						    position: absolute;
+						    right: 3px;
+						    bottom: 0;
+						    background: url('../img/jess.png') 0 0 repeat-y;
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+}
+// END :: navbar
+// ------------------------------------------------------------------------------------
+
+
+
+// ------------------------------------------------------------------------------------
+// START :: Footer
+footer {
+	background: @bg-gray;
+	padding: 40px 0 0 0;
+    height: 150px;
+	.container {
+		.row {
+			.top-footer {
+				& > div {
+					&:first-child {
+						a {
+							width: 112px;
+						    height: 30px;
+						    background: url('../img/logo-footer.svg');
+						    display: block;
+							background-size: cover;
+							background-repeat: no-repeat;
+						    img {
+						    	vertical-align: middle;	
+						    	display: none;					    	
+						    }
+						}
+					}
+					&:nth-child(2) {
+						
+					}
+				}
+			}
+		}
+	}
+}
+// END :: Footer
+// ------------------------------------------------------------------------------------
