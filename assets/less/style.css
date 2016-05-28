@@ -265,10 +265,15 @@ footer .container .row .bottom-footer > div:nth-child(2) {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 20px 15px;
   margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
 }
 .section-register .container .row > div:nth-child(2) .features-item i {
   font-size: 30px;
   color: #FE5815;
+}
+.section-register .container .row > div:nth-child(2) .features-item:hover {
+  box-shadow: 0px 3px 10px #666;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
