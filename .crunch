@@ -15,7 +15,30 @@
 					}
 				}
 			],
-			"sources": []
+			"sources": [
+				"app.less"
+			]
+		},
+		"assets/less/style.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "style.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": true
+					}
+				}
+			],
+			"sources": [
+				"general.less",
+				"section/common.less",
+				"variable.less"
+			]
 		}
 	}
 }
