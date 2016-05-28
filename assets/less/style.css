@@ -271,6 +271,9 @@ footer .container .row .bottom-footer > div:nth-child(2) {
 .section-register .container .row > div:nth-child(1) form {
   /* END :: .form-group {*/
 }
+.section-register .container .row > div:nth-child(1) form .form-group {
+  /* END :: &.in-line {*/
+}
 .section-register .container .row > div:nth-child(1) form .form-group.in-line {
   padding-bottom: 35px;
 }
