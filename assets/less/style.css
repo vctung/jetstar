@@ -85,6 +85,9 @@ button.btn-orange:hover {
 .input-group .input-group-addon {
   border-radius: 0px;
 }
+.padding-right-0 {
+  padding-right: 0px !important;
+}
 .navbar {
   background: #303030;
   border-radius: 0px;
@@ -259,7 +262,36 @@ footer .container .row .bottom-footer > div:nth-child(2) {
   padding: 100px 0px 100px 0px;
 }
 .section-register .container .row > div {
+  /*Left part*/
   /*Right part*/
+}
+.section-register .container .row > div:nth-child(1) {
+  /* END :: form {*/
+}
+.section-register .container .row > div:nth-child(1) form {
+  /* END :: .form-group {*/
+}
+.section-register .container .row > div:nth-child(1) form .form-group.in-line {
+  padding-bottom: 35px;
+}
+.section-register .container .row > div:nth-child(1) form .form-group.in-line p {
+  margin-bottom: 5px;
+}
+.section-register .container .row > div:nth-child(1) form .form-group.in-line > div:nth-child(2) {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+.section-register .container .row > div:nth-child(1) form .form-group.in-line > div:nth-child(3) {
+  padding-right: 0px;
+  padding-left: 5px;
+}
+.section-register .container .row > div:nth-child(1) form .form-group p i.icon-asterisk {
+  color: red;
+  font-size: 8px;
+  vertical-align: middle;
+}
+.section-register .container .row > div:nth-child(1) form button.finish-register {
+  margin-top: 20px;
 }
 .section-register .container .row > div:nth-child(2) .features-item {
   background-color: rgba(0, 0, 0, 0.1);
