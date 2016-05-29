@@ -19,7 +19,7 @@
   <!-- END :: Style --> 
 
   <!-- Style :: Onlypage -->
-  <link href="assets/validetta/validetta.min.css" rel="stylesheet" >
+
   <!-- END :: Style Onlypage -->
 
   <!-- MyStyle -->
@@ -93,12 +93,12 @@
 
 
 <!-- START :: section Register -->
-<section class="section-register">
+<section  class="section-register">
    <div class="container">
       <div class="row">
 
             <div class="col-md-6">
-             <form class="register-form">
+             <form id="register-form" >
 
              <p>In order to sign up to Club Jetstar, we need to create a My Jetstar account for you first. By joining My Jetstar you consent to us emailing you information in our Membership Updates. We will also send you JetMail and, in future, My Jetstar promotions unless you tell us you do not wish to receive these email communications. You can 'opt-out' of any marketing communications by clicking on the ‘unsubscribe’ button.</p>
 
@@ -106,13 +106,11 @@
                 <div class="form-group in-line">
                   <p>Enter your <strong>Name</strong> <i class="icon-asterisk"></i></p>
                     <div class="col-sm-6">
-                      <input type="text" class="form-control" id="first-name" 
-                      data-validetta="required,minLength[2],maxLength[12]"
+                      <input type="text" class="form-control" id="first-name"  name="firstname"
                       placeholder="First Name">
                     </div>    
                     <div class="col-sm-6">
-                      <input type="text" class="form-control" id="last-name" 
-                      data-validetta="required,minLength[2],maxLength[12]"
+                      <input type="text" class="form-control" id="last-name"  name="lastname" 
                       placeholder="Last Name">
                     </div>              
                 </div>
@@ -121,7 +119,7 @@
                 <div class="form-group in-line">
                   <p>Nickname</p>
                     <div class="col-sm-12 padding-right-0">
-                      <input type="text" class="form-control" placeholder="Nickname">                      
+                      <input  type="text" class="form-control" placeholder="Nickname">                        
                     </div>     
                 </div>
                 <!-- END :: a form-group -->
@@ -129,9 +127,7 @@
                 <div class="form-group in-line">
                   <p>Email <i class="icon-asterisk"></i> </p>
                     <div class="col-sm-12 padding-right-0">
-                      <input type="email" class="form-control" 
-                      data-validetta="required,email"
-                      placeholder="Email">
+                      <input name="email"  type="email" class="form-control"  placeholder="Email">
                     </div>     
                 </div>
                 <!-- END :: a form-group -->
@@ -141,14 +137,10 @@
                 <div class="form-group in-line">
                   <p>Your  <strong>password</strong> <i class="icon-asterisk"></i></p>
                     <div class="col-sm-6">
-                      <input type="password" class="form-control" id="first-name" 
-                      data-validetta="required,minLength[2],maxLength[12]"
-                      placeholder="Password">
+                      <input name="password"  type="password" class="form-control"  placeholder="Password">
                     </div>    
                     <div class="col-sm-6">
-                      <input type="password" class="form-control" id="last-name" 
-                      data-validetta="required,minLength[2],maxLength[12]"
-                      placeholder="Confirm Password">
+                      <input name="confirmpassword"  type="password" class="form-control"   placeholder="Confirm Password">
                     </div>              
                 </div>
                 <!-- END :: a form-group -->
@@ -274,10 +266,9 @@
 <!-- END ::Common  script     -->
 
 <!-- Only page  script    -->
-<script src="assets/validetta/validetta.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-  $(".register-form").validetta();  
-</script>
+<script src="assets/js/validate.js" type="text/javascript"></script>
+<script src="assets/js/register.js" type="text/javascript"></script>
+
 <!-- END :: Only page  script     -->
 </body>
 
