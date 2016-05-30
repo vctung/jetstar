@@ -99,7 +99,7 @@ button.btn-orange-line {
   /* END ::     .fieldgroup {*/
 }
 #register-form .fieldgroup {
-  background: url("form-divider.gif") repeat-x scroll left top transparent;
+  background: url("../img/form-divider.gif") repeat-x scroll left top transparent;
   display: inline-block;
   padding: 8px 10px;
   width: 340px;
@@ -485,6 +485,18 @@ section.setting-page .container .row > div {
   padding-top: 30px;
   padding-bottom: 50px;
 }
+section.setting-page .container .row > div:nth-child(1) {
+  position: relative;
+}
+section.setting-page .container .row > div:nth-child(1)::after {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  right: -143px;
+  bottom: -160px;
+  content: "";
+  background: url("../img/settings-bg.jpg") no-repeat;
+}
 section.setting-page .container .row > div:nth-child(1) ul {
   padding-left: 0;
 }
@@ -532,7 +544,7 @@ section.setting-page .container .row > div:nth-child(2) > p {
   font-size: 22px;
   font-family: 'helvetica-neue-bold';
   border-bottom: 1px solid #f6f6f6;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 .field-box-item-setting .field {
   font-size: 12px;
@@ -542,6 +554,7 @@ section.setting-page .container .row > div:nth-child(2) > p {
   display: block;
   opacity: 1;
   transition: opacity 1s ease-out;
+  border-bottom: 1px solid #f6f6f6;
 }
 .field-box-item-setting .content-view h5 {
   line-height: 0px;
@@ -552,6 +565,7 @@ section.setting-page .container .row > div:nth-child(2) > p {
 }
 .field-box-item-setting .content-view .btn-list {
   text-align: right;
+  margin-bottom: 20px;
 }
 .field-box-item-setting .content-view .btn-list button {
   margin-top: -10px;
@@ -560,6 +574,7 @@ section.setting-page .container .row > div:nth-child(2) > p {
   display: none;
   opacity: 0;
   transition: opacity 1s ease-out;
+  border-bottom: 1px solid #f6f6f6;
 }
 .field-box-item-setting .edit-view .btn-list {
   text-align: right;
