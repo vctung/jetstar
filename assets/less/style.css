@@ -68,7 +68,7 @@ button:hover {
   color: #fff;
 }
 button.btn-orange {
-  border: none;
+  border: 1px solid #FE5815;
   background: #FE5815;
   color: #fff;
   transition: all 0.2s ease-in-out;
@@ -81,6 +81,12 @@ button.btn-orange:hover {
   background: #FE5815;
   color: #fff;
   border: none;
+}
+button.btn-orange-line {
+  border: 1px solid #FE5815;
+  background: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .input-group .input-group-addon {
   border-radius: 0px;
@@ -471,6 +477,107 @@ section.mytrip .container .row > div:nth-child(2) h3 {
 section.mytrip .container .row > div:nth-child(2) h3 {
   margin-top: 40px;
   font-size: 18px;
+}
+section.setting-page {
+  background: #fff;
+}
+section.setting-page .container .row > div {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+section.setting-page .container .row > div:nth-child(1) ul {
+  padding-left: 0;
+}
+section.setting-page .container .row > div:nth-child(1) ul li {
+  list-style: none;
+  border-bottom: 1px solid #f6f6f6;
+}
+section.setting-page .container .row > div:nth-child(1) ul li a {
+  color: #303642;
+  display: block;
+  padding: 14px 10px;
+}
+section.setting-page .container .row > div:nth-child(1) ul li a:hover {
+  color: #FE5815;
+}
+section.setting-page .container .row > div:nth-child(1) ul li a i {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+section.setting-page .container .row > div:nth-child(1) ul li.active a {
+  font-family: 'helvetica-neue-bold';
+  color: #FE5815;
+  cursor: auto;
+}
+section.setting-page .container .row > div:nth-child(2) {
+  border-left: 1px solid #f6f6f6;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+section.setting-page .container .row > div:nth-child(2) > h1 {
+  font-family: 'helvetica-neue-bold';
+  font-weight: bold;
+  font-size: 50px;
+}
+section.setting-page .container .row > div:nth-child(2) > p {
+  font-family: 'HelveticaNeue-Light';
+  margin-top: 25px;
+}
+.field-box-item-setting {
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+.field-box-item-setting h3 {
+  font-size: 22px;
+  font-family: 'helvetica-neue-bold';
+  border-bottom: 1px solid #f6f6f6;
+  padding-bottom: 15px;
+}
+.field-box-item-setting .field {
+  font-size: 12px;
+  font-family: 'HelveticaNeue-Light';
+}
+.field-box-item-setting .content-view {
+  display: block;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+.field-box-item-setting .content-view h5 {
+  line-height: 0px;
+  font-weight: bold;
+}
+.field-box-item-setting .content-view p {
+  font-family: 'HelveticaNeue-Light';
+}
+.field-box-item-setting .content-view .btn-list {
+  text-align: right;
+}
+.field-box-item-setting .content-view .btn-list button {
+  margin-top: -10px;
+}
+.field-box-item-setting .edit-view {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+.field-box-item-setting .edit-view .btn-list {
+  text-align: right;
+}
+.field-box-item-setting.edit-mode .content-view {
+  display: none;
+  transition: opacity 1s ease-out;
+  opacity: 0;
+}
+.field-box-item-setting.edit-mode .edit-view {
+  display: block;
+  opacity: 1;
+}
+.end-line {
+  padding: 40px 0px 40px 0px;
+}
+.end-line a {
+  margin-left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

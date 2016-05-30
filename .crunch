@@ -37,6 +37,7 @@
 			"sources": [
 				"general.less",
 				"section/common.less",
+				"section/setting-page.less",
 				"variable.less"
 			]
 		}
