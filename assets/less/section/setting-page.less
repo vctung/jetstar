@@ -96,11 +96,27 @@ section.setting-page {
 		p {
 			font-family: 'HelveticaNeue-Light';
 		}
+		table {			
+			margin-bottom: -20px;
+			margin-left: -20px;
+			tr {
+				border: none;
+				td {
+					border: none;
+					&:nth-child(2) {
+						font-family: 'HelveticaNeue-Bold';
+						font-weight: bold;
+					}
+				}
+			}
+		}
 		.btn-list {
 			text-align: right;
 			margin-bottom: 20px;
 			button {
 				margin-top: -10px;
+				position: relative;
+    			z-index: 1;
 			}
 		}
 	}
@@ -109,7 +125,30 @@ section.setting-page {
 		display: none;	
 		opacity: 0; 
 		transition: opacity 1s ease-out;
-		border-bottom:  1px solid #f6f6f6; 	
+		border-bottom:  1px solid #f6f6f6; 
+		&.have-inline-form {
+			padding-left: 0;
+			.form-group {
+				display: -webkit-flex;
+   				 display: flex;
+   				 & > label {
+   				 	display: -webkit-flex;
+				    display: flex;
+				    align-items: center;
+   				 }
+   				 & > div {
+   				 	&.tip {
+   				 		font-size: 12px;
+   				 		display: -webkit-flex;
+   				 		display: flex;
+    					align-items: center;
+   				 	}
+   				 	.checkbox.bigger {
+
+   				 	}
+   				 }   				
+			}
+		}	
 		.btn-list {
 			text-align: right;
 		}
