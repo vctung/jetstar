@@ -19,6 +19,8 @@
   <!-- END :: Style --> 
 
   <!-- Style :: Onlypage -->
+  <!-- <link rel="stylesheet" href="assets/3rd/datetimepicker/css/material.min.css"> -->
+  <link rel="stylesheet" href="assets/3rd/datetimepicker/css/bootstrap-material-datetimepicker.css">
 
   <!-- END :: Style Onlypage -->
 
@@ -198,29 +200,10 @@
 
                  <div class="form-group">
                   <label  class="col-sm-2 control-label">DOB</label>
-                  <div class="col-sm-3">
-                    <select class="form-control" >
-                      <option value="mr">Day</option>
-                      <option value="ms">Female</option>
-                      option
-                    </select>
+                  <div class="col-sm-5">
+                     <input type="text" class="form-control have-date-picker"  placeholder="DOB">      
                   </div>
 
-                  <div class="col-sm-4">
-                    <select class="form-control" >
-                      <option value="mr">Month</option>
-                      <option value="ms">Female</option>
-                      option
-                    </select>
-                  </div>
-
-                  <div class="col-sm-3">
-                    <select class="form-control" >
-                      <option value="mr">Year</option>
-                      <option value="ms">Female</option>
-                      option
-                    </select>
-                  </div>
                 </div> <!-- END :: a form-group -->
 
             
@@ -659,28 +642,8 @@
 
                  <div class="form-group">
                   <label  class="col-sm-2 control-label">Expiry date</label>
-                  <div class="col-sm-3">
-                    <select class="form-control" >
-                      <option value="mr">Day</option>
-                      <option value="ms">Female</option>
-                      option
-                    </select>
-                  </div>
-
-                  <div class="col-sm-4">
-                    <select class="form-control" >
-                      <option value="mr">Month</option>
-                      <option value="ms">Female</option>
-                      option
-                    </select>
-                  </div>
-
-                  <div class="col-sm-3">
-                    <select class="form-control" >
-                      <option value="mr">Year</option>
-                      <option value="ms">Female</option>
-                      option
-                    </select>
+                  <div class="col-sm-5">
+                    <input type="email" class="form-control have-date-picker"  placeholder="Passport number">                    
                   </div>
                 </div> <!-- END :: a form-group -->
 
@@ -777,8 +740,10 @@
 <!-- END ::Common  script     -->
 
 <!-- Only page  script    -->
+<script src="assets/3rd/datetimepicker/js/material.min.js"></script>
+<script src="assets/3rd/datetimepicker/js/moment-with-locales.min.js"></script>
+<script src="assets/3rd/datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
 <script src="assets/js/setting-page.js" type="text/javascript"></script>
-
 <!-- END :: Only page  script     -->
 </body>
 

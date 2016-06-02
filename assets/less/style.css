@@ -289,6 +289,22 @@ button.btn-orange-line {
   -o-transition: All 0.3s ease;
 }
 /*  END :: Switch */
+/*Custom datepicker*/
+.dtp .dtp-buttons button {
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #fff;
+  box-shadow: none;
+}
+.dtp .dtp-buttons button:hover {
+  transition: All 0.3s ease;
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+  background: #FE5815;
+  color: #fff;
+}
+/* END :: Custom datepicker*/
 @keyframes opacityShow {
   from {
     opacity: 0;

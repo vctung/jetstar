@@ -32,3 +32,5 @@ $('body').on('click', '.btn-close-box', function(event) {
 	});
 	
 });
+
+$('.have-date-picker').bootstrapMaterialDatePicker({ weekStart : 0, time: false });
