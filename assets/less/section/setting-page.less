@@ -73,7 +73,10 @@ section.setting-page {
 // START  :: field-box-item-setting 
 .field-box-item-setting  {
 	padding-left: 0;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
+	&.box-add-credit-card {
+		display: none;
+	}	
 	h3 {
 		font-size: 22px;
 		font-family: 'helvetica-neue-bold';
@@ -149,42 +152,43 @@ section.setting-page {
    				 }   				
 			}
 		}	
-		&.have-table-form {
-			table {
-				tr {
-					border-bottom: 1px solid #f6f6f6;
-					border-top: none;
-					td {
-						padding: 15px 0px;
-						vertical-align: middle;
-						.form-group {
-							margin-bottom: 0px;
-						}
-						&:nth-child(2) {
-							.form-group {
-																
-							}	
-							.nopadding {
-								padding-left: 0px;
-								padding-right: 0px;
-							}
-							.nomargin {
-								margin-left: 0px;
-								margin-right: 0px;
-							}						
-						}
-						&.have-radio-buton {
-							& > div {
-								margin-top: 8px;
-							}
-						}
-					}
-					
-				}
-			}
-		}
+		
 		.btn-list {
 			text-align: right;
+		}
+	}
+	.have-table-form {
+			table {
+				tr {
+				border-bottom: 1px solid #f6f6f6;
+				border-top: none;
+				td {
+					padding: 15px 0px;
+					vertical-align: middle;
+					.form-group {
+						margin-bottom: 0px;
+					}
+					&:nth-child(2) {
+						.form-group {
+															
+						}	
+						.nopadding {
+							padding-left: 0px;
+							padding-right: 0px;
+						}
+						.nomargin {
+							margin-left: 0px;
+							margin-right: 0px;
+						}						
+					}
+					&.have-radio-buton {
+						& > div {
+							margin-top: 8px;
+						}
+					}
+				}
+				
+			}
 		}
 	}
 

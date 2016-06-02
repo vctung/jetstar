@@ -694,6 +694,9 @@ section.setting-page .container .row > div:nth-child(2) > p {
   padding-left: 0;
   margin-bottom: 30px;
 }
+.field-box-item-setting.box-add-credit-card {
+  display: none;
+}
 .field-box-item-setting h3 {
   font-size: 22px;
   font-family: 'helvetica-neue-bold';
@@ -764,30 +767,30 @@ section.setting-page .container .row > div:nth-child(2) > p {
   display: flex;
   align-items: center;
 }
-.field-box-item-setting .edit-view.have-table-form table tr {
+.field-box-item-setting .edit-view .btn-list {
+  text-align: right;
+}
+.field-box-item-setting .have-table-form table tr {
   border-bottom: 1px solid #f6f6f6;
   border-top: none;
 }
-.field-box-item-setting .edit-view.have-table-form table tr td {
+.field-box-item-setting .have-table-form table tr td {
   padding: 15px 0px;
   vertical-align: middle;
 }
-.field-box-item-setting .edit-view.have-table-form table tr td .form-group {
+.field-box-item-setting .have-table-form table tr td .form-group {
   margin-bottom: 0px;
 }
-.field-box-item-setting .edit-view.have-table-form table tr td:nth-child(2) .nopadding {
+.field-box-item-setting .have-table-form table tr td:nth-child(2) .nopadding {
   padding-left: 0px;
   padding-right: 0px;
 }
-.field-box-item-setting .edit-view.have-table-form table tr td:nth-child(2) .nomargin {
+.field-box-item-setting .have-table-form table tr td:nth-child(2) .nomargin {
   margin-left: 0px;
   margin-right: 0px;
 }
-.field-box-item-setting .edit-view.have-table-form table tr td.have-radio-buton > div {
+.field-box-item-setting .have-table-form table tr td.have-radio-buton > div {
   margin-top: 8px;
-}
-.field-box-item-setting .edit-view .btn-list {
-  text-align: right;
 }
 .field-box-item-setting.edit-mode .content-view {
   display: none;
