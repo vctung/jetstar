@@ -59,6 +59,21 @@ input {
   height: 40px !important;
   border-radius: 0px !important;
 }
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url(../img/check_radio_sheet.png) -38px top no-repeat;
+  cursor: pointer;
+}
+input[type="radio"]:checked + label span {
+  background: url(../img/check_radio_sheet.png) -57px top no-repeat;
+}
 button {
   border-radius: 3px !important;
   box-shadow: 0px 1px 6px #ccc;
@@ -759,6 +774,17 @@ section.setting-page .container .row > div:nth-child(2) > p {
 }
 .field-box-item-setting .edit-view.have-table-form table tr td .form-group {
   margin-bottom: 0px;
+}
+.field-box-item-setting .edit-view.have-table-form table tr td:nth-child(2) .nopadding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.field-box-item-setting .edit-view.have-table-form table tr td:nth-child(2) .nomargin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.field-box-item-setting .edit-view.have-table-form table tr td.have-radio-buton > div {
+  margin-top: 8px;
 }
 .field-box-item-setting .edit-view .btn-list {
   text-align: right;
