@@ -127,101 +127,177 @@
 
       <div class="col-md-9">
 
- <!-- ==========    START  :: Credit cards Bõx ============ -->  
+ <!-- ==========    START  :: Your stored travel companions  ============ -->  
           <h1>Travel companions</h1>
           <p>Speed up your booking process by storing up to 6 travel companions' details in your My Jetstar account. The next time you book, when entering the passengers’ details just select one or more of your stored travel companions and Jetstar will pre-populate their details!
           <br>
           All information is handled in accordance with our <a href="#" title="Privacy Policy">Privacy Policy</a>.</p>
-          <button data-target=".box-add-credit-card" class="btn btn-orange btn-addnew-card btn-show-box">
+          <button data-target=".box-add-travel-companion" class="btn btn-orange btn-addnew-card btn-show-box">
            Add a new travel companion
            </button>
 
 
 
-          <!-- START :: a  field-box-item-setting -->
-          <div class="col-md-12 field-box-item-setting box-add-credit-card clone">
+          <!-- START :: a  field-box-item-setting :: Add a new travel companion-->
+          <div class="col-md-12 field-box-item-setting box-add-travel-companion clone">
             <h3>Stored Credit Cards</h3> 
 
              <div class="col-md-12 content-view have-table-form ">
                
-                <table class="table col-md-12"> 
+               
+                      <table class="table col-md-12"> 
                         <tr>
-                          <td class="col-md-4">Add Credit Card</td>
+                          <td class="col-md-4">Passenger Type*</td>
                           <td class="col-md-8">
-                             <div class="form-group col-md-10 nopadding">                                                 
-                              <input type="text" class="form-control"  placeholder="Card Number">
+                             <div class="form-group">    
+                             
+                                  <div class="col-md-3 nopadding">
+                                    <select class="form-control nomargin">
+                                      <option> Adult</option>
+                                      <option> Adult</option>
+                                   </select>
+                                  </div>
+
                             </div>
                           </td>
                         </tr>
                          <tr>
-                          <td>Card Number</td>
+                          <td>Title*</td>
                           <td>
-                            <div class="form-group col-md-10 nopadding">                                                 
-                              <input type="text" class="form-control"  placeholder="Card Number">
+                            <div class="form-group">   
+                             
+                                  <div class="col-md-3 nopadding">
+                                    <select class="form-control nomargin">
+                                      <option> Miss</option>
+                                      <option> Miss</option>
+                                   </select>
+                                  </div>
+
                             </div>
                           </td>
                         </tr>
                          <tr>
-                          <td>Card Type</td>
+                          <td>Full Name*</td>
                           <td>
-                            <img src="assets/img/PaymentTypes.png" alt="">
+
+                            <div class="form-group col-md-6 nopadding">                                                
+                              <input type="text" class="form-control"  placeholder="First Name">
+                            </div>
+
+                            <div class="form-group col-md-6">                                                
+                              <input type="text" class="form-control"  placeholder="Last Name">
+                            </div>
+
                           </td>
                         </tr>
                          <tr>
-                          <td>Expiry Date</td>
+                          <td>Gender*</td>
                           <td>
-                            <div class="form-group">
-
-                              <div class="col-md-3 nopadding">
-                                <select class="form-control nomargin ">
-                                  <option>12</option>
-                                  <option>11</option>
-                               </select>
-                              </div>
-
-                              <div class="col-md-4">
-                                <select class="form-control nomargin">
-                                  <option>2015</option>
-                                  <option>2016</option>
-                               </select>
-                              </div>                               
+                            <div class="form-group">   
+                             
+                                  <div class="col-md-3 nopadding">
+                                    <select class="form-control nomargin">
+                                      <option> Miss</option>
+                                      <option> Miss</option>
+                                   </select>
+                                  </div>
 
                             </div>
-                            
                           </td>
                         </tr>
+
                         <tr>
-                          <td>Default card</td>
-                          <td class="have-radio-buton">
-                            <div class="col-md-3 ">
-                              <input type="radio" id="r1" name="rr">
-                              <label for="r1"><span></span>Yes</label>                            
-                            </div>
-                             <div class="col-md-3 ">
-                              <input type="radio" id="r4" name="rr" >
-                              <label for="r4"><span></span>No</label>                            
-                            </div>
+                          <td>QFF Number</td>
+                          <td>
+                              <div class="form-group">                                
+                                <div class="col-sm-5 nopadding">
+                                  <input type="email" class="form-control">                    
+                                </div>
+                                 <div class="col-sm-7 tip font-size-12">
+                                   <a href="" title="">Which fares can earn Qantas Points?</a>
+                                </div>
+                              </div> <!-- END :: a form-group -->
                           </td>
                         </tr>
+
+
                         <tr>
-                          <td>Annual Club Jetstar</td>
-                          <td class="have-radio-buton">
-                              <div class="col-md-3 ">
-                              <input type="radio" id="r3" name="rr" >
-                              <label for="r3"><span></span>Yes</label>                            
-                            </div>
-                             <div class="col-md-3 ">
-                              <input type="radio" id="r6" name="rr">
-                              <label for="r5"><span></span>No</label>                            
+                          <td>JAL Mileage number</td>
+                          <td>
+                              <div class="form-group">                                
+                                <div class="col-sm-5 nopadding">
+                                  <input type="email" class="form-control">                    
+                                </div>
+                                 <div class="col-sm-7 tip font-size-12">
+                                   <a href="" title="">Which fares can earn JAL Mileage? </a>
+                                </div>
+                              </div> <!-- END :: a form-group -->
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Emirates Skywards Miles</td>
+                          <td>
+                              <div class="form-group">                                
+                                <div class="col-sm-5 nopadding">
+                                  <input type="email" class="form-control">                    
+                                </div>
+                                 <div class="col-sm-7 tip font-size-12">
+                                   <a href="" title="">Which fares can earn Emirates Skywards Miles?</a>
+                                </div>
+                              </div> <!-- END :: a form-group -->
+                          </td>
+                        </tr>
+                      
+                        <tr>
+                          <td>Lotusmiles Milesr</td>
+                          <td>
+                              <div class="form-group">                                
+                                <div class="col-sm-5 nopadding">
+                                  <input type="email" class="form-control">                    
+                                </div>
+                                 <div class="col-sm-7 tip font-size-12">
+                                   <a href="" title="">Which fares can earn Lotusmiles Miles?</a>
+                                </div>
+                              </div> <!-- END :: a form-group -->
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Date of birth*</td>
+                          <td>
+                               <div class="form-group">   
+                             
+                                  <div class="col-md-3 nopadding">
+                                    <select class="form-control nomargin">
+                                      <option> 5</option>
+                                      <option> 5</option>
+                                   </select>
+                                  </div>
+
+                                  <div class="col-md-6 ">
+                                    <select class="form-control nomargin">
+                                      <option> Sep</option>
+                                      <option> Oct</option>
+                                   </select>
+                                  </div>
+                                   <div class="col-md-3 ">
+                                    <select class="form-control nomargin">
+                                      <option> 1979 </option>
+                                      <option> 1980</option>
+                                   </select>
+                                  </div>
+
                             </div>
                           </td>
                         </tr>
+
                      
                     </table>
 
-               <div class="btn-list col-md-12">
-                 <button class="btn btn-orange btn-edit-fields"> Add credit card</button>
-                 <button data-target=".box-add-credit-card"  class="btn btn-orange-line btn-close-box"> Cancel</button>
+               <div class="btn-list col-md-12 padding-top-50">
+                 <button class="btn btn-orange btn-edit-fields"> Add travel companion </button>
+                 <button data-target=".box-add-travel-companion"  class="btn btn-orange-line btn-close-box"> Cancel</button>
                </div>
             </div> <!-- content-view -->
 
@@ -236,7 +312,7 @@
                </div>
             </div> <!-- edit-view -->
           </div>
-          <!-- END :: a  field-box-item-setting box add-->
+          <!-- END :: a  field-box-item-setting :: Add a new travel companion-->
 
 
 
@@ -248,28 +324,40 @@
              <div class="col-md-12 content-view  have-table-form">
                 <table class="table col-md-5"> 
                     <tr>
-                      <td class="col-md-5">Cardholder name</td>
-                      <td class="col-md-7">Hoang Nguyen</td>
+                      <td class="col-md-5">Passenger Type</td>
+                      <td class="col-md-7">Adult</td>
                     </tr>
                      <tr>
-                      <td>Card Number</td>
-                      <td>XXXX XXXX XXXX 8839</td>
+                      <td>Title</td>
+                      <td>Miss</td>
                     </tr>
                      <tr>
-                      <td>Card Type</td>
-                      <td>Mastercard</td>
+                      <td> Full Name </td>
+                      <td> Thuy  Le </td>
                     </tr>
                      <tr>
-                      <td>Expiry Date</td>
-                      <td>12/2016</td>
+                      <td>Gender </td>
+                      <td>Female </td>
                     </tr>
                     <tr>
-                      <td>Default card</td>
-                      <td>Yes</td>
+                      <td>QFF Number</td>
+                      <td>-</td>
                     </tr>
-                    <tr>
-                      <td>Annual Club Jetstar</td>
-                      <td>Yes</td>
+                     <tr>
+                      <td>JAL Mileage number</td>
+                      <td>-</td>
+                    </tr>
+                     <tr>
+                      <td>Emirates Skywards Miles</td>
+                      <td>-</td>
+                    </tr>
+                     <tr>
+                      <td>Lotusmiles Miles</td>
+                      <td>-</td>
+                    </tr>
+                     <tr>
+                      <td>Date of birth</td>
+                      <td>05-09-1979</td>
                     </tr>
                  
                 </table>
@@ -284,76 +372,151 @@
 
                       <table class="table col-md-12"> 
                         <tr>
-                          <td class="col-md-4">Cardholder name</td>
+                          <td class="col-md-4">Passenger Type*</td>
                           <td class="col-md-8">
-                             <div class="form-group col-md-10 nopadding">                                                 
-                              <input type="text" class="form-control"  placeholder="Card Number">
+                             <div class="form-group">    
+                             
+                                  <div class="col-md-3 nopadding">
+                                    <select class="form-control nomargin">
+                                      <option> Adult</option>
+                                      <option> Adult</option>
+                                   </select>
+                                  </div>
+
                             </div>
                           </td>
                         </tr>
                          <tr>
-                          <td>Card Number</td>
+                          <td>Title*</td>
                           <td>
-                            <div class="form-group col-md-10 nopadding">                                                 
-                              <input type="text" class="form-control"  placeholder="Card Number">
+                            <div class="form-group">   
+                             
+                                  <div class="col-md-3 nopadding">
+                                    <select class="form-control nomargin">
+                                      <option> Miss</option>
+                                      <option> Miss</option>
+                                   </select>
+                                  </div>
+
                             </div>
                           </td>
                         </tr>
                          <tr>
-                          <td>Card Type</td>
+                          <td>Full Name*</td>
                           <td>
-                            <img src="assets/img/PaymentTypes.png" alt="">
+
+                            <div class="form-group col-md-6 nopadding">                                                
+                              <input type="text" class="form-control"  placeholder="First Name">
+                            </div>
+
+                            <div class="form-group col-md-6">                                                
+                              <input type="text" class="form-control"  placeholder="Last Name">
+                            </div>
+
                           </td>
                         </tr>
                          <tr>
-                          <td>Expiry Date</td>
+                          <td>Gender*</td>
                           <td>
-                            <div class="form-group">
-
-                              <div class="col-md-3 nopadding">
-                                <select class="form-control nomargin ">
-                                  <option>12</option>
-                                  <option>11</option>
-                               </select>
-                              </div>
-
-                              <div class="col-md-4">
-                                <select class="form-control nomargin">
-                                  <option>2015</option>
-                                  <option>2016</option>
-                               </select>
-                              </div>                               
+                            <div class="form-group">   
+                             
+                                  <div class="col-md-3 nopadding">
+                                    <select class="form-control nomargin">
+                                      <option> Miss</option>
+                                      <option> Miss</option>
+                                   </select>
+                                  </div>
 
                             </div>
-                            
                           </td>
                         </tr>
+
                         <tr>
-                          <td>Default card</td>
-                          <td class="have-radio-buton">
-                            <div class="col-md-3 ">
-                              <input type="radio" id="r1" name="rr">
-                              <label for="r1"><span></span>Yes</label>                            
-                            </div>
-                             <div class="col-md-3 ">
-                              <input type="radio" id="r2" name="rr">
-                              <label for="r2"><span></span>No</label>                            
-                            </div>
+                          <td>QFF Number</td>
+                          <td>
+                              <div class="form-group">                                
+                                <div class="col-sm-5 nopadding">
+                                  <input type="email" class="form-control">                    
+                                </div>
+                                 <div class="col-sm-7 tip font-size-12">
+                                   <a href="" title="">Which fares can earn Qantas Points?</a>
+                                </div>
+                              </div> <!-- END :: a form-group -->
                           </td>
                         </tr>
+
+
                         <tr>
-                          <td>Annual Club Jetstar</td>
-                          <td class="have-radio-buton">
-                              <div class="col-md-3 ">
-                              <input type="radio" id="r3" name="rr">
-                              <label for="r3"><span></span>Yes</label>                            
-                            </div>
-                             <div class="col-md-3 ">
-                              <input type="radio" id="r4" name="rr">
-                              <label for="r4"><span></span>No</label>                            
+                          <td>JAL Mileage number</td>
+                          <td>
+                              <div class="form-group">                                
+                                <div class="col-sm-5 nopadding">
+                                  <input type="email" class="form-control">                    
+                                </div>
+                                 <div class="col-sm-7 tip font-size-12">
+                                   <a href="" title="">Which fares can earn JAL Mileage? </a>
+                                </div>
+                              </div> <!-- END :: a form-group -->
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Emirates Skywards Miles</td>
+                          <td>
+                              <div class="form-group">                                
+                                <div class="col-sm-5 nopadding">
+                                  <input type="email" class="form-control">                    
+                                </div>
+                                 <div class="col-sm-7 tip font-size-12">
+                                   <a href="" title="">Which fares can earn Emirates Skywards Miles?</a>
+                                </div>
+                              </div> <!-- END :: a form-group -->
+                          </td>
+                        </tr>
+                      
+                        <tr>
+                          <td>Lotusmiles Milesr</td>
+                          <td>
+                              <div class="form-group">                                
+                                <div class="col-sm-5 nopadding">
+                                  <input type="email" class="form-control">                    
+                                </div>
+                                 <div class="col-sm-7 tip font-size-12">
+                                   <a href="" title="">Which fares can earn Lotusmiles Miles?</a>
+                                </div>
+                              </div> <!-- END :: a form-group -->
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>Date of birth*</td>
+                          <td>
+                               <div class="form-group">   
+                             
+                                  <div class="col-md-3 nopadding">
+                                    <select class="form-control nomargin">
+                                      <option> 5</option>
+                                      <option> 5</option>
+                                   </select>
+                                  </div>
+
+                                  <div class="col-md-6 ">
+                                    <select class="form-control nomargin">
+                                      <option> Sep</option>
+                                      <option> Oct</option>
+                                   </select>
+                                  </div>
+                                   <div class="col-md-3 ">
+                                    <select class="form-control nomargin">
+                                      <option> 1979 </option>
+                                      <option> 1980</option>
+                                   </select>
+                                  </div>
+
                             </div>
                           </td>
                         </tr>
+
                      
                     </table>
 
@@ -368,7 +531,7 @@
           <!-- END :: a  field-box-item-setting -->
 
 
-<!-- ==========    END :: Credit cards box  ============ -->
+<!-- ==========    END :: Your stored travel companions  ============ -->
 
 
  

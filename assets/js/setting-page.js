@@ -11,7 +11,8 @@ $('.btn-canel-fields').click(function(event) {
 $('body').on('click', '.btn-show-box', function(event) {
 	event.preventDefault();
 	
-	var _target = $(this).data('target');
+	var _target = $(this).data('target'); 
+	console.log(_target);
 	$(_target).slideDown('slow', function() {
 		
 	});
@@ -22,6 +23,7 @@ $('body').on('click', '.btn-close-box', function(event) {
 	event.preventDefault();
 	
 	var _target = $(this).data('target');
+	console.log(_target);
 	$(_target).slideUp('slow', function() {
 		
 	});
