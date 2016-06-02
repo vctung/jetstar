@@ -800,6 +800,7 @@ section.setting-page .container .row > div:nth-child(2) > p {
 .field-box-item-setting.edit-mode .edit-view {
   display: block;
   opacity: 1;
+  transition: opacity 1s ease-out;
 }
 .end-line {
   padding: 40px 0px 40px 0px;
