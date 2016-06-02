@@ -176,7 +176,7 @@
                         <tr>
                           <td class="col-md-4">Cardholder name</td>
                           <td class="col-md-8">
-                             <div class="form-group col-md-10">                                                 
+                             <div class="form-group col-md-10 nopadding">                                                 
                               <input type="text" class="form-control"  placeholder="Card Number">
                             </div>
                           </td>
@@ -184,7 +184,7 @@
                          <tr>
                           <td>Card Number</td>
                           <td>
-                            <div class="form-group col-md-10">                                                 
+                            <div class="form-group col-md-10 nopadding">                                                 
                               <input type="text" class="form-control"  placeholder="Card Number">
                             </div>
                           </td>
@@ -200,18 +200,19 @@
                           <td>
                             <div class="form-group">
 
-                              <figure class="col-md-6">
-                                <select class="form-control">
+                              <div class="col-md-3 nopadding">
+                                <select class="form-control nomargin ">
                                   <option>12</option>
                                   <option>11</option>
                                </select>
-                              </figure> 
-                              <figure class="col-md-6">
-                                <select class="form-control">
-                                  <option>12</option>
-                                  <option>11</option>
+                              </div>
+
+                              <div class="col-md-4">
+                                <select class="form-control nomargin">
+                                  <option>2015</option>
+                                  <option>2016</option>
                                </select>
-                              </figure>                               
+                              </div>                               
 
                             </div>
                             
@@ -219,11 +220,29 @@
                         </tr>
                         <tr>
                           <td>Default card</td>
-                          <td>Yes</td>
+                          <td class="have-radio-buton">
+                            <div class="col-md-3 ">
+                              <input type="radio" id="r1" name="rr">
+                              <label for="r1"><span></span>Yes</label>                            
+                            </div>
+                             <div class="col-md-3 ">
+                              <input type="radio" id="r2" name="rr">
+                              <label for="r2"><span></span>No</label>                            
+                            </div>
+                          </td>
                         </tr>
                         <tr>
                           <td>Annual Club Jetstar</td>
-                          <td>Yes</td>
+                          <td class="have-radio-buton">
+                              <div class="col-md-3 ">
+                              <input type="radio" id="r3" name="rr">
+                              <label for="r3"><span></span>Yes</label>                            
+                            </div>
+                             <div class="col-md-3 ">
+                              <input type="radio" id="r4" name="rr">
+                              <label for="r4"><span></span>No</label>                            
+                            </div>
+                          </td>
                         </tr>
                      
                     </table>

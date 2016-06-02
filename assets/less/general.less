@@ -66,6 +66,25 @@ input {
 	border-radius: 0px !important;
 }
 
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../img/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background:url(../img/check_radio_sheet.png) -57px top no-repeat;
+}
+
+
 button {
 	border-radius: 3px !important;
 	box-shadow: 0px 1px 6px #ccc;
