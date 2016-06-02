@@ -73,7 +73,21 @@ section.setting-page {
 // START  :: field-box-item-setting 
 .field-box-item-setting  {
 	padding-left: 0;
-	margin-bottom: 30px;
+	margin-bottom: 30px;	
+	&.edit-mode {
+		animation-name: opacityShow;
+        animation-duration: 2s;
+		.content-view {
+			display: none;
+			transition: all 1s ease-out;
+			opacity: 0; 
+		}
+		.edit-view {
+			display: block;			
+			transition: all 1s ease-out;
+			opacity: 1;
+		}
+	}
 	&.clone {
 		display: none;
 	}
@@ -91,9 +105,9 @@ section.setting-page {
 		font-family: 'HelveticaNeue-Light';
 	}
 	.content-view {
-	    display: block;	
-	    opacity: 1;
-	    transition: opacity 1s ease-out;	
+	    display: block;		    
+	    transition: all 1s ease-out;	
+	    // opacity: 1;
 	    border-bottom:  1px solid #f6f6f6;   
 		h5 {
 			line-height: 0px;
@@ -129,8 +143,8 @@ section.setting-page {
 
 	.edit-view {
 		display: none;	
+		transition: all 1s ease-out;
 		opacity: 0; 
-		transition: opacity 1s ease-out;
 		border-bottom:  1px solid #f6f6f6; 
 		&.have-inline-form {
 			padding-left: 0;
@@ -195,18 +209,7 @@ section.setting-page {
 		}
 	}
 
-	&.edit-mode {
-		.content-view {
-			display: none;
-			transition: opacity 1s ease-out;
-			opacity: 0; 
-		}
-		.edit-view {
-			display: block;
-			opacity: 1;
-			transition: opacity 1s ease-out; 
-		}
-	}
+	
 }
 // END :: field-box-item-setting 
 // ------------------------------------------------------------------------------------

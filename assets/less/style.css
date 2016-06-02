@@ -289,6 +289,14 @@ button.btn-orange-line {
   -o-transition: All 0.3s ease;
 }
 /*  END :: Switch */
+@keyframes opacityShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .navbar {
   background: #303030;
   border-radius: 0px;
@@ -699,6 +707,20 @@ section.setting-page .container .row > div:nth-child(2) > p {
   padding-left: 0;
   margin-bottom: 30px;
 }
+.field-box-item-setting.edit-mode {
+  animation-name: opacityShow;
+  animation-duration: 2s;
+}
+.field-box-item-setting.edit-mode .content-view {
+  display: none;
+  transition: all 1s ease-out;
+  opacity: 0;
+}
+.field-box-item-setting.edit-mode .edit-view {
+  display: block;
+  transition: all 1s ease-out;
+  opacity: 1;
+}
 .field-box-item-setting.clone {
   display: none;
 }
@@ -717,8 +739,7 @@ section.setting-page .container .row > div:nth-child(2) > p {
 }
 .field-box-item-setting .content-view {
   display: block;
-  opacity: 1;
-  transition: opacity 1s ease-out;
+  transition: all 1s ease-out;
   border-bottom: 1px solid #f6f6f6;
 }
 .field-box-item-setting .content-view h5 {
@@ -753,8 +774,8 @@ section.setting-page .container .row > div:nth-child(2) > p {
 }
 .field-box-item-setting .edit-view {
   display: none;
+  transition: all 1s ease-out;
   opacity: 0;
-  transition: opacity 1s ease-out;
   border-bottom: 1px solid #f6f6f6;
 }
 .field-box-item-setting .edit-view.have-inline-form {
@@ -799,16 +820,6 @@ section.setting-page .container .row > div:nth-child(2) > p {
 }
 .field-box-item-setting .have-table-form table tr td.have-radio-buton > div {
   margin-top: 8px;
-}
-.field-box-item-setting.edit-mode .content-view {
-  display: none;
-  transition: opacity 1s ease-out;
-  opacity: 0;
-}
-.field-box-item-setting.edit-mode .edit-view {
-  display: block;
-  opacity: 1;
-  transition: opacity 1s ease-out;
 }
 .end-line {
   padding: 40px 0px 40px 0px;

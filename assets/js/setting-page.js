@@ -8,6 +8,9 @@ $('.btn-canel-fields').click(function(event) {
 		___parent.removeClass('edit-mode');
 });
 
+
+
+
 $('body').on('click', '.btn-show-box', function(event) {
 	event.preventDefault();
 	
