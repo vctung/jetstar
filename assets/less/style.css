@@ -742,6 +742,16 @@ section.mytrip .container .row > div:nth-child(2) h3 {
 .box-modal-club-offer .modal-body > div .end-img {
   text-align: right;
 }
+.box-iframe-payment {
+  padding: 0px;
+}
+.box-iframe-payment iframe {
+  width: 100%;
+  border: none;
+}
+.box-iframe-payment iframe html {
+  display: none;
+}
 section.setting-page {
   background: #fff;
 }
