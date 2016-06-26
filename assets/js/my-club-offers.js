@@ -2,7 +2,7 @@ $(function() {
     $('#features-carousel').utilCarousel({
         responsiveMode: 'itemWidthRange',
         itemWidthRange: [260, 300],
-        autoPlay: true,
+        // autoPlay: true,
         interval: 3000
     });
     $('#simpleImg').utilCarousel({

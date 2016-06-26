@@ -742,6 +742,50 @@ section.mytrip .container .row > div:nth-child(2) h3 {
 .box-modal-club-offer .modal-body > div .end-img {
   text-align: right;
 }
+.section-detail-club-offer-ver-2 {
+  margin-bottom: 40px;
+  display: none;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div {
+  padding: 20px;
+  background: url('../img/bg-stripe-cop.png') repeat 0 0;
+  border: 1px solid #ccc;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div small {
+  color: #666;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div h2 {
+  font-weight: bold;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div ul {
+  padding: 10px;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div ul li {
+  color: #666;
+  font-size: 12px;
+  line-height: 30px;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div .head {
+  text-align: right;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div .head i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: All 0.3s ease;
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div .head i:hover {
+  opacity: 0.5;
+}
+.section-detail-club-offer-ver-2 .container .row .item-content > div .end-img {
+  text-align: right;
+}
 .box-iframe-payment {
   padding: 0px;
 }
