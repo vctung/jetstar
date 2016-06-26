@@ -222,6 +222,10 @@ footer {
     	background-image: url(../img/beach-banner.jpg);
     	margin-top: 0px;
     }
+    &.my-club-offers {
+    	background-image: url(../img/Australia-Hobarttrip_Header-ClubJetstar.jpg);
+    	margin-top: 0px;
+    }
 }
 // END :: Banner
 // ------------------------------------------------------------------------------------
@@ -446,3 +450,122 @@ section.mytrip {
 }
 // END :: mytrip section
 // ------------------------------------------------------------------------------------
+
+
+// ------------------------------------------------------------------------------------
+// START :: section-introduction
+.section-introduction {
+	.container {
+		.row {
+			& > div {			
+
+				&:first-child {
+					padding: 15px 0px 15px 0px;
+					text-align: right;
+				}
+
+				&:nth-child(2) {
+					& > div {
+						background: url('../img/bg--banner-sale.jpg') no-repeat right top;
+	    				border: 1px solid #ddebf8;
+						padding:  25px 25px 50px 25px;
+						h3 {
+							font-size: 24px;
+							font-weight: bold;
+						}	
+					}
+									
+				}
+			}
+		}
+	}
+}
+// END :: section-introduction
+// ------------------------------------------------------------------------------------
+
+
+
+// ------------------------------------------------------------------------------------
+// START ::section-list-club-offer
+.section-list-club-offer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	.container {
+		.row {
+
+			.features {
+				#features-carousel {
+					.item {
+						cursor: pointer;
+						border: 1px solid #ddebf8;						
+						display: block;
+						transition: All 0.4s ease;						
+						h3 {
+							font-size: 20px;
+							font-weight: bold;
+						}
+						p {
+							color: #666;
+						}
+						&:hover {
+							box-shadow: 0px 3px 3px #999;
+						}
+						&:active {	
+							opacity: 0.5;
+						}
+					}
+				}
+			} /*  END :: .features*/
+
+
+		} /*  END :: .row*/
+	}
+}
+// END :: section-list-club-offer
+// ------------------------------------------------------------------------------------
+
+
+// ------------------------------------------------------------------------------------
+// START ::section-list-club-offer
+.box-modal-club-offer {
+	.modal-header {
+		button {
+			&:hover {
+				box-shadow: none;
+			}
+		}
+	}
+	.modal-body {
+		background: url('../img/bg-stripe-cop.png') repeat 0 0;
+		& > div {
+			padding: 20px;
+			small {
+				color: #666;
+			}
+			h2 {
+				font-weight: bold;
+			}
+			h3 {
+				font-size: 20px;
+				font-weight: bold;
+			}
+			ul {
+				padding: 10px;
+				li {
+					color: #666;
+					font-size: 12px;
+					line-height: 30px;
+				}
+			}
+			.end-img {
+				text-align: right;
+			}
+		}
+		
+	}
+	
+}
+// END :: section-list-club-offer
+// ------------------------------------------------------------------------------------
+
+

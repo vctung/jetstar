@@ -1,0 +1,236 @@
+/*!
+ * Bootstrap v3.0.3
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+.util-carousel {
+    display: none;
+    position: relative;
+    -ms-touch-action: pan-y
+}
+.util-carousel .util-wrapper-holder {
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+.util-carousel .util-wrapper {
+    *zoom: 1;
+    position: relative;
+    display: none
+}
+.util-carousel .util-wrapper:before,
+.util-carousel .util-wrapper:after {
+    display: table;
+    content: "";
+    line-height: 0
+}
+.util-carousel .util-wrapper:after {
+    clear: both
+}
+.util-carousel .util-item {
+    float: left
+}
+.dragging,
+.dragging * {
+    cursor: url(https://www.google.com/intl/en_ALL/mapfiles/closedhand.cur), move
+}
+.util-theme-default .util-pagination {
+    text-align: center;
+    margin-top: 10px
+}
+.util-theme-default .util-page span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #bbb;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    margin: 5px
+}
+.util-theme-default .util-page {
+    display: inline-block;
+    cursor: pointer;
+    zoom: 1;
+    *display: inline
+}
+.util-theme-default .util-page.active-page span {
+    background-color: #555
+}
+.util-theme-default .util-page:hover span {
+    background-color: #888
+}
+.util-theme-default .util-navigation {
+    text-align: center
+}
+.util-theme-default .util-prev,
+.util-theme-default .util-next {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 5px;
+    background-color: #bbb;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.util-theme-default .util-prev:hover,
+.util-theme-default .util-next:hover {
+    background-color: #555
+}
+.util-theme-default .util-disable,
+.util-theme-default .util-disable:hover {
+    background-color: #bbb;
+    opacity: .4;
+    cursor: default
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+body {
+    background-color: #f2f2f2;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #444;
+    margin-top: 75px
+}
+a {
+    color: #356635;
+    word-wrap: break-word;
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in
+}
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0
+}
+a:before,
+a:after {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in
+}
+#hello {
+    padding: 70px 0;
+    text-align: center
+}
+#hello h1 {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #444;
+    text-shadow: 1px 1px 0 #fff;
+    font-weight: 600
+}
+#hello p {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #fff;
+    margin-bottom: 30px
+}
+.buy span {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 7px 10px;
+    display: block;
+    border-radius: 4px
+}
+.buy:hover span {
+    background-color: #49a344
+}
+
+.wight-box {
+    background: #fff;
+    padding: 25px
+}
+.sp-title {
+    text-align: center;
+    padding: 60px 10px 40px 10px
+}
+
+.sp-title h1 {
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase
+}
+.sp-title p {
+    font-size: 15px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .9)
+}
+.ptb-45 {
+    padding: 45px 0
+}
+
+.features-carousel .item {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px 15px;
+    border-radius: 3px;
+    margin: 5px
+}
+.features-carousel .item i {
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #4cae4c;
+    color: #fff;
+    border-radius: 50%
+}
+.features-carousel .util-page span {
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    margin: 5px 2px
+}
+.features-carousel .util-page.active-page span {
+    background-color: #555;
+    width: 25px
+}
+.moredemo {
+    background-color: #fff;
+    padding: 50px 10px;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #333
+}
+.moredemo:hover {
+    background-color: #469c41;
+    color: #fff
+}
+.bg1 {
+    background: #666
+}
+.no-touch .bg1 {
+    background: url('../images/bg1.jpg') center center fixed #666
+}
+.table tr td:first-child,
+.table a {
+    color: #4cae4c
+}
+.table {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9)
+}

@@ -156,6 +156,11 @@ button.btn-orange-line {
   width: 220px;
   height: 40px !important;
 }
+/*Modal */
+.modal .modal-dialog .modal-content {
+  border-radius: 0px;
+}
+/* END :: modal*/
 /* Switch */
 .switch {
   position: relative;
@@ -487,6 +492,10 @@ footer .container .row .bottom-footer > div:nth-child(2) {
   background-image: url(../img/beach-banner.jpg);
   margin-top: 0px;
 }
+.section-banner.my-club-offers {
+  background-image: url(../img/Australia-Hobarttrip_Header-ClubJetstar.jpg);
+  margin-top: 0px;
+}
 .section-login {
   background: url('../img/bg-mountains.jpg');
   height: 750px;
@@ -660,6 +669,78 @@ section.mytrip .container .row > div:nth-child(2) h3 {
 section.mytrip .container .row > div:nth-child(2) h3 {
   margin-top: 40px;
   font-size: 18px;
+}
+.section-introduction .container .row > div:first-child {
+  padding: 15px 0px 15px 0px;
+  text-align: right;
+}
+.section-introduction .container .row > div:nth-child(2) > div {
+  background: url('../img/bg--banner-sale.jpg') no-repeat right top;
+  border: 1px solid #ddebf8;
+  padding: 25px 25px 50px 25px;
+}
+.section-introduction .container .row > div:nth-child(2) > div h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.section-list-club-offer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section-list-club-offer .container {
+  /*  END :: .row*/
+}
+.section-list-club-offer .container .row {
+  /*  END :: .features*/
+}
+.section-list-club-offer .container .row .features #features-carousel .item {
+  cursor: pointer;
+  border: 1px solid #ddebf8;
+  display: block;
+  transition: All 0.4s ease;
+}
+.section-list-club-offer .container .row .features #features-carousel .item h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.section-list-club-offer .container .row .features #features-carousel .item p {
+  color: #666;
+}
+.section-list-club-offer .container .row .features #features-carousel .item:hover {
+  box-shadow: 0px 3px 3px #999;
+}
+.section-list-club-offer .container .row .features #features-carousel .item:active {
+  opacity: 0.5;
+}
+.box-modal-club-offer .modal-header button:hover {
+  box-shadow: none;
+}
+.box-modal-club-offer .modal-body {
+  background: url('../img/bg-stripe-cop.png') repeat 0 0;
+}
+.box-modal-club-offer .modal-body > div {
+  padding: 20px;
+}
+.box-modal-club-offer .modal-body > div small {
+  color: #666;
+}
+.box-modal-club-offer .modal-body > div h2 {
+  font-weight: bold;
+}
+.box-modal-club-offer .modal-body > div h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.box-modal-club-offer .modal-body > div ul {
+  padding: 10px;
+}
+.box-modal-club-offer .modal-body > div ul li {
+  color: #666;
+  font-size: 12px;
+  line-height: 30px;
+}
+.box-modal-club-offer .modal-body > div .end-img {
+  text-align: right;
 }
 section.setting-page {
   background: #fff;
