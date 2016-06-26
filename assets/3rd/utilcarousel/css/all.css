@@ -234,3 +234,45 @@ a:after {
 .table {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9)
 }
+
+
+.normal-imglist {
+    padding: 0 40px;
+}
+
+.normal-imglist .item {
+    margin: 5px;
+}
+.normal-imglist .item a {
+    display: block;
+    border: 4px solid #fff;
+    -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.15);
+        box-shadow:0 1px 2px rgba(0, 0, 0, 0.15)
+}
+.normal-imglist .item a img {
+    border: none;
+    width: 100%;
+    vertical-align: middle;
+}
+.normal-imglist .util-next, .normal-imglist .util-prev {
+    position: absolute;
+    top: 50%;
+    line-height: 50px;
+    width: 40px;
+    margin: 0;
+    margin-top: -25px;
+    padding: 0;
+    background-color: transparent;
+    font-size: 28px;
+    color: #777;
+}
+.normal-imglist .util-next:hover, .normal-imglist .util-prev:hover {
+    background-color: transparent;
+}
+.normal-imglist .util-next {
+    right: -40px;
+}
+.normal-imglist .util-prev {
+    left: -40px;
+}

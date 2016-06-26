@@ -3,7 +3,11 @@ $(function() {
         responsiveMode: 'itemWidthRange',
         itemWidthRange: [260, 300],
         // autoPlay: true,
-        interval: 3000
+        interval: 3000,
+        navigationText: ['<i class="icon-left-open-big"></i>', '<i class=" icon-right-open-big"></i>'],
+        navigation: true,
+        rewind: false,
+        pagination: false,
     });
     $('#simpleImg').utilCarousel({
         responsiveMode: 'itemWidthRange',
